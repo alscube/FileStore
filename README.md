@@ -15,6 +15,10 @@ well as class level documentation (Class_Documentation.html).
 
 This is a C++ library built using Qt tools.
 
+
+# Downloading
+Different branches contain different versions.  Check out the branch you need.
+
 # Licensing
 
 This SDK is provided free to all users.
