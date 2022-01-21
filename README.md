@@ -4,7 +4,7 @@ A defined record read/write library with indexing.
 
 # FileStore SDK
 
-This is a complete SDK that can be used to build a simple record storage file.
+This is a complete SDK that can be used to build a simple fixed/define record storage file.
 
 A fully working example is provided showing how to use the SDK classes.
 

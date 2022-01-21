@@ -15,3 +15,5 @@ FileStore Release Notes 3.1.0
 
     * Add validation functions (Validate() / ValidateT()) for float and double values.
       See void ValidateT( const float value, const FieldDef* fieldDef );
+	  
+	  
