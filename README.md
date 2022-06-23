@@ -18,7 +18,7 @@ You will need to download the version of Qt (5 or 6) to link with.
 
 # Releases
 
-Switch to the branch to select the version you needed
+Switch to the branch to select the version you need
 
 * Branch release_3.0.1, for Qt 5, Mac 64 bit, Windows 32 bit.
 * Branch release_3.1.0, for Qt 5, Mac 64 bit, Windows 32 bit.
