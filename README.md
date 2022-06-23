@@ -18,9 +18,11 @@ You will need to download the version of Qt (5 or 6) to link with.
 
 # Releases
 
-* Release 3.0.1, for Qt 5, Mac 64 bit, Windows 32 bit.
-* Release 3.1.0, for Qt 5, Mac 64 bit, Windows 32 bit.
-* Release 3.2.0, for Qt 6, Mac 64 bit Universal Binary (x86_64 arm64), Windows 64 bit.
+Switch to the branch to select the version you needed
+
+* Branch release_3.0.1, for Qt 5, Mac 64 bit, Windows 32 bit.
+* Branch release_3.1.0, for Qt 5, Mac 64 bit, Windows 32 bit.
+* Branch release_3.2.0, for Qt 6, Mac 64 bit Universal Binary (x86_64 arm64), Windows 64 bit.
 
 # Licensing
 
