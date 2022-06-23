@@ -13,11 +13,14 @@ well as class level documentation (Class_Documentation.html).
 
 # Coding Language / Requirements
 
-This is a C++ library built using Qt tools.
+This is a C++ library built using Qt tools.  
+You will need to download the version of Qt (5 or 6) to link with.
 
+# Releases
 
-# Downloading
-Different branches contain different versions.  Check out the branch you need.
+Release 3.0.1, for Qt 5, Mac 64 bit, Windows 32 bit
+Release 3.1.0, for Qt 5, Mac 64 bit, Windows 32 bit
+Release 3.2.0, for Qt 6, Mac 64 bit Universal Binary (x86_64 arm64), Windows 64 bit
 
 # Licensing
 
