@@ -4,7 +4,9 @@ A defined record read/write library with BTree indexing.
 
 # FileStore SDK
 
-This is a complete SDK that can be used to build a simple record storage file.
+This is a complete SDK can be used to build a simple record storage file.
+FileStore provides all the I/O mechanisms to Open files, Read, Write, and Detete records.
+FileStore keeps track of records deleted and reuses storage space.
 
 A fully working example is provided showing how to use the SDK classes.
 
