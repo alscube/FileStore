@@ -1,6 +1,6 @@
 # FileStore
 
-A defined record read/write library with indexing.
+A defined record read/write library with BTree indexing.
 
 # FileStore SDK
 
@@ -13,16 +13,15 @@ well as class level documentation (Class_Documentation.html).
 
 # Coding Language / Requirements
 
-This is a C++ library built using Qt tools.  
-You will need to download the version of Qt (5 or 6) to link with.
+This is a C++ library built using the Qt SDK. You will need a copy of the Qt SDK to interface and link with the FileStore library. See the README for the branch you download.
 
 # Releases
 
-* Release 3.0.1, for Qt 5, Mac 64 bit, Windows 32 bit.
-* Release 3.1.0, for Qt 5, Mac 64 bit, Windows 32 bit.
-* Release 3.2.0, for Qt 6, Mac 64 bit Universal Binary (x86_64 arm64), Windows 64 bit.
+- Release 3.0.1, for Qt 5, Mac 64 bit, Windows 32 bit.
+- Release 3.1.0, for Qt 5, Mac 64 bit, Windows 32 bit.
+- Release 3.2.0, for Qt 6, Mac 64 bit (x86_64 arm64), Windows 64 bit, Linux
+- Release 3.3.0, for Qt 6, Mac 64 bit (x86_64 arm64), Windows 64 bit, Linux
 
 # Licensing
 
-This SDK is provided free to all users.
-It is licensed under the LGPLv3 license.
+This SDK is provided free to all users. It is licensed under the LGPLv3 license.
