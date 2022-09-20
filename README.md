@@ -22,8 +22,6 @@ of the Qt SDK 6.x to link with.
 
 In the Sample folder you will find a Qt project file, FileStoreSample.pro.  You can 
 create a Visual Studio project or Xcode project from it if needed.
-If you use QtCreator set the "Build Directory" in the build setting to:
-<your_folder>/FileStore/build
 
 For Windows copy the FileStore DLL to the debug/release directory where the EXE was created.
 
@@ -35,3 +33,4 @@ match your build type exceptions will not be handled correctly.
 # Licensing
 
 This SDK is provided free to all users.  It is licensed under the LGPLv3 license.
+
