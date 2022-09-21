@@ -24,6 +24,8 @@ This is a C++ library built using the Qt SDK. You will need a copy of the Qt SDK
 - Release 3.2.0, for Qt 6, Mac 64 bit (x86_64 arm64), Windows 64 bit, Linux
 - Release 3.3.0, for Qt 6, Mac 64 bit (x86_64 arm64), Windows 64 bit, Linux
 
+Select the branch to download the version you want
+
 # Licensing
 
 This SDK is provided free to all users. It is licensed under the LGPLv3 license.
