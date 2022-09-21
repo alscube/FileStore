@@ -3,11 +3,14 @@
 
 Filestore 3.3.0
 
-    * Enhanced Field validation, added ValidateField as a convenience functions
+    * Enhanced Field validation, added ValidateField as a convenince function
     * Added method SetSkipDeletedRecords to FSFileBase, the FileStore will
       skip delete records when calling ReadNext, default is false
-    * Fixed range validation for floats and doubles
-    * Convert macOS library from a static to a dynamic library 
+    * fixed range validation for floats and doubles
+    * Convert macOS library from a static to a dynamic library
+    * Moved FileStore libraries down a level to platform specific directories
+    * Fixed sample object and moc directories so debug and release are different
+    
 
 FileStore 3.2.0
 
