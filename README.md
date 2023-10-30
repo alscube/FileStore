@@ -32,6 +32,11 @@ Debug or Release version that matches your build type.  If the FileStore library
 match your build type exceptions will not be handled correctly.
 
 
+# Releases
+
+Release 3.2.0, for Qt 6, Mac 64 bit (x86_64 arm64), Windows 64 bit, Linux
+
+
 # Licensing
 
 This SDK is provided free to all users.  It is licensed under the LGPLv3 license.
