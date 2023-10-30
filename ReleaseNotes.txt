@@ -1,6 +1,19 @@
 
     Change Notes
 
+FileStore 3.3.2
+    * Update documentation and licensing
+
+FileStore 3.3.1
+
+    * Add FieldValiateT for all validators
+    * Add Validators for UINT64 types
+    * Add Validators for Boolean types
+    * Rename 'GetFieldList' to 'GetFieldNameList' for clearity
+    * Rename 'GetField / SetField' to 'GetFieldValue / SetFieldValue' for clearity
+    * Add test to exeplify how the record is cleared
+    * For user field definition, 'fRecordLastField+1' has been replaced with 'fFirstUserField'
+
 Filestore 3.3.0
 
     * Enhanced Field validation, added ValidateField as a convenince function
@@ -11,7 +24,6 @@ Filestore 3.3.0
     * Moved FileStore libraries down a level to platform specific directories
     * Fixed sample object and moc directories so debug and release are different
     
-
 FileStore 3.2.0
 
     * Build for Qt 6
