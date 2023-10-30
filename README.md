@@ -29,6 +29,10 @@ Be aware that the FileStore library throws exceptions.  When developing always u
 Debug or Release version that matches your build type.  If the FileStore library does not 
 match your build type exceptions will not be handled correctly.
 
+# Releases
+
+Built for Qt 6, Mac 64 bit (x86_64 arm64), Windows 64 bit, Linux 64 bit
+
 
 # Licensing
 
