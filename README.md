@@ -4,7 +4,7 @@ A defined record read/write library with BTree indexing.
 
 # FileStore SDK
 
-This is a complete SDK can be used to build a simple record storage file.
+This is a complete SDK that can be used to build a simple record storage file.
 FileStore provides all the I/O mechanisms to Open files, Read, Write, and Detete records.
 FileStore keeps track of records deleted and reuses storage space.
 
@@ -15,17 +15,28 @@ well as class level documentation (Class_Documentation.html).
 
 # Coding Language / Requirements
 
-This is a C++ library built using the Qt SDK. You will need a copy of the Qt SDK to interface and link with the FileStore library. See the README for the branch you download.
+This is a C++ library built using the Qt SDK 6.x. You will need a copy 
+of the Qt SDK 6.x to link with.
+
+# Sample Project
+
+In the Sample folder you will find a Qt project file, FileStoreSample.pro.  You can 
+create a Visual Studio project or Xcode project from it if needed.
+If you use QtCreator set the "Build Directory" in the build setting to:
+<your_folder>/FileStore/build
+
+For Windows copy the FileStore DLL to the debug/release directory where the EXE was created.
+
+Be aware that the FileStore library throws exceptions.  When developing always use the 
+Debug or Release version that matches your build type.  If the FileStore library does not 
+match your build type exceptions will not be handled correctly.
+
 
 # Releases
 
-- Release 3.0.1, for Qt 5, Mac 64 bit, Windows 32 bit.
-- Release 3.1.0, for Qt 5, Mac 64 bit, Windows 32 bit.
-- Release 3.2.0, for Qt 6, Mac 64 bit (x86_64 arm64), Windows 64 bit, Linux
-- Release 3.3.0, for Qt 6, Mac 64 bit (x86_64 arm64), Windows 64 bit, Linux
+Release 3.2.0, for Qt 6, Mac 64 bit (x86_64 arm64), Windows 64 bit, Linux
 
-Select the branch to download the version you want
 
 # Licensing
 
-This SDK is provided free to all users. It is licensed under the LGPLv3 license.
+This SDK is provided free to all users.  It is licensed under the LGPLv3 license.

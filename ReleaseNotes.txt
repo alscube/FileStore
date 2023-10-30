@@ -1,0 +1,28 @@
+
+FileStore Release Notes 3.2.0
+
+    * Build for Qt 6
+    * Rename all files to begin with FS, ie: FSFileBase
+    * Build Universal Binary for macOS, x86_64 and arm64 (Apple Silicon)
+
+FileStore Release Notes 3.1.1
+
+    * Update Min / Max field value support for Floats and Doubles
+
+FileStore Release Notes 3.1.0
+
+    * "bool createDefaultEntries = true" has been removed from the CreateT( ) method.
+    * To create default entries call "ResultValue CreateDefaultEntries( )' or
+      "void CreateDefaultEntriesT( )" directly
+
+    * Documentation update for ReadNext() / ReadNextT()
+
+    * Add access to the additional message passed to a ResultException, see
+      "const QString& ResultException::MessageString()"
+
+    * Add field definitions for floats (InsertFloatField) and doubles (InsertDoubleField).
+      See void RecordBaseFields::InsertFloatField( ..... )
+
+    * Add validation functions (Validate() / ValidateT()) for float and double values.
+      See void ValidateT( const float value, const FieldDef* fieldDef );
+
