@@ -9,8 +9,8 @@ FileStore 3.3.1
     * Add FieldValiateT for all validators
     * Add Validators for UINT64 types
     * Add Validators for Boolean types
-    * Rename 'GetFieldList' to 'GetFieldNameList' for clearity
-    * Rename 'GetField / SetField' to 'GetFieldValue / SetFieldValue' for clearity
+    * Renamed 'GetFieldList' to 'GetFieldNameList' for clearity
+    * Renamed 'GetField / SetField' to 'GetFieldValue / SetFieldValue' for clearity
     * Add test to exeplify how the record is cleared
     * For user field definition, 'fRecordLastField+1' has been replaced with 'fFirstUserField'
 
