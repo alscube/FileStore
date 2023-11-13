@@ -2,6 +2,7 @@
 
 A defined record read/write library with BTree indexing.
 
+
 # FileStore SDK
 
 This is a complete SDK that can be used to build a simple record storage file.
@@ -13,10 +14,12 @@ A fully working example is provided showing how to use the SDK classes.
 The Docs directory contains a PDF file (FileStore.pdf) that provides a walkthrough as
 well as class level documentation (Class_Documentation.html).
 
+
 # Coding Language / Requirements
 
 This is a C++ library built using the Qt SDK 6.x. You will need a copy 
 of the Qt SDK 6.x to link with.
+
 
 # Sample Project
 
@@ -28,6 +31,7 @@ For Windows copy the FileStore DLL to the debug/release directory where the EXE 
 Be aware that the FileStore library throws exceptions.  When developing always use the 
 Debug or Release version that matches your build type.  If the FileStore library does not 
 match your build type exceptions will not be handled correctly.
+
 
 # Releases
 
