@@ -6,6 +6,9 @@ FileStore 3.4.0
     * added API to get file version when file cannot be normally open
         GetInternalFileStoreVersion
         GetInternalFileVersionT
+    * fFirstUserField, the first user field emum has been decremented. This was due to a gap
+	in the incrementation, so for older code add a "+1" to your first enum field.
+	ie: enum { fAccountId = fFirstUserField+1 };
 
 FileStore 3.3.2
     * Update documentation and licensing
@@ -15,14 +18,14 @@ FileStore 3.3.1
     * Add FieldValiateT for all validators
     * Add Validators for UINT64 types
     * Add Validators for Boolean types
-    * Rename 'GetFieldList' to 'GetFieldNameList' for clearity
-    * Rename 'GetField / SetField' to 'GetFieldValue / SetFieldValue' for clearity
-    * Add test to exeplify how the record is cleared
+    * Rename 'GetFieldList' to 'GetFieldNameList' for clarity
+    * Rename 'GetField / SetField' to 'GetFieldValue / SetFieldValue' for clarity
+    * Add test to exemplify how the record is cleared
     * For user field definition, 'fRecordLastField+1' has been replaced with 'fFirstUserField'
 
 Filestore 3.3.0
 
-    * Enhanced Field validation, added ValidateField as a convenince function
+    * Enhanced Field validation, added ValidateField as a convenience function
     * Added method SetSkipDeletedRecords to FSFileBase, the FileStore will
       skip delete records when calling ReadNext, default is false
     * fixed range validation for floats and doubles
