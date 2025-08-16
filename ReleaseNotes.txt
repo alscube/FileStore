@@ -3,8 +3,9 @@
 
 FileStore 3.4.0
     * build for Qt 6.9.0
-    * added API to get file version when file cannot be normally open
-        GetInternalFileStoreVersion
+    * added API to get library and file versions
+        GetFileStoreStructureVersion
+        GetInternalFileStoreBuildVersion
         GetInternalFileVersionT
     * fFirstUserField, the first user field emum has been decremented. This was due to a gap
 	in the incrementation, so for older code add a "+1" to your first enum field.
